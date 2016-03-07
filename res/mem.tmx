@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="500" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Floor" tilewidth="64" tileheight="64" tilecount="819">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Floor.png" width="1344" height="2496"/>
+  <tile id="155">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="820" name="Wall" tilewidth="64" tileheight="64" tilecount="1020">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Wall.png" width="1280" height="3264"/>
+  <tile id="120">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="500">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="520">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="500" height="500">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3df2rUQBgG4ITesddxpUU9gFbF9gJCi5b2DFWvIKt3UA9ggi67OySZTbO/vunzwAstZCb57yXJbOayqqrLgVw1ed3kTZOLJh8yx0cMAESX6zp9DgDHb2qf359U1d2ItMen55g6x9TxABDd1D5/aLrxXb15Hjr6fOocU8cDQHT6HADi0+cAEF/u/XKuz793jB16d93V51PnmDoeAKI7q9dznty/jl3f3o5N5+ybe1dzjB0PANGlz6Lfb6HP+55zp3Pvao6x4wEgOn0OAPHpcwCI77pez03Sd7fVep9/avI5Sdql6Zx9cw/18ZQ5xo4HgOju/t/Lrq7/np8s782fVf+6fJFZkufV+j17uta8b+6hTJ1j7HgAiK7ts9OquxdXn7X3JfcMvm/uMZk6R248AESnzwEgvkXfpe/EF9mkz7veqS8yNPemmTpHbjwARDfLZKjL+96pRwsARLdJX5eYWaXPASjHx54sem/17zHpm/dYsnqtABBdbh3ciyYvO/KqWvbhPo5pr+ei53rb5PZgGdpzBgCiy/V539r1q2rZw/s4JtfnU/ZMBYDo9DkAxKfPASC+Uvo8/cZr7n26PgegJKX0edf9+lndnXP35wAUJtfnfd9+u62WPbyPYx7T55vumQoA0eX6/FiizwGgX67PD/3dl0X0OQD0y72v7vq+yyHymD6/rrtzo88BKMy21p/tOmOvJ13v3t6Xr/4/1+cAFKTUPk8ztAc6AESnzwEgPn0OAPEN9Xm6T/ghs8trAYDocn3+FAIA0eWet3+pq+rrgfOt7n7ePvQMfUwAILpcn8+bLv1x4PzU5wAwqJQ+z+2nlube788BKEgpfW7/cwCeslyf/2q67/eB80efA8CgTda3z44g7XXocwDoFun3akN9nn6vPfc+XZ8DUJK+Nd9T90N723FP3O5TOnXeTde3t319Vnfn3P05AIXZxu+9utLX59s8R67P7X8OwFOhzwEgPn0OAPGV3OfXdXdu9DkAhSm1z9P17u35V/+f63MAClJqn485FgCi21Wf7+N8pyOjzwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBx/gLi1oxGQEIPAA==
+  </data>
+ </layer>
+</map>

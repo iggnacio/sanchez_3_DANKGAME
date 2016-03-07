@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="500" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Floor" tilewidth="64" tileheight="64" tilecount="819">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Floor.png" width="1344" height="2496"/>
+  <tile id="155">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="820" name="Wall" tilewidth="64" tileheight="64" tilecount="1020">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Wall.png" width="1280" height="3264"/>
+  <tile id="120">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="500">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="520">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1840" name="Ground0" tilewidth="64" tileheight="64" tilecount="56">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Ground0.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="1896" name="Pit0" tilewidth="64" tileheight="64" tilecount="256">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Pit0.png" width="512" height="2048"/>
+  <tile id="41">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2152" name="Tile" tilewidth="64" tileheight="64" tilecount="32">
+  <image source="../../../dungeon/DawnLike (copy)/Objects/Tile.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2184" name="Floor" tilewidth="16" tileheight="16" tilecount="819">
+  <image source="../../../dungeon/DawnLike/Objects/Floor.png" width="336" height="624"/>
+  <tile id="155">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="500" height="500">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+</map>
